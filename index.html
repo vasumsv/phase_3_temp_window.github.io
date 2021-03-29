@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+
+    <title> Title</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style2.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+       </head>
+
+<body>
+    <style>
+            .bcontent {
+            margin-top: 10px;
+            background: #0c0c0c;  
+            }
+            pre{
+            color:#ffffff;
+            }
+
+            .vl {
+            border-left: 10px solid green;
+            height: auto;
+            }
+    </style>
+
+    
+
+    <div class="wrapper">
+        
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            
+            <div class="sidebar-header">
+                
+                <img   id="sidebarimg" src="content_images/logo.png" alt="Avatar">
+                <h3>Heading</h4>
+            </div>
+          
+
+            <ul class="list-unstyled components">
+               
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+            <!-- <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                </li>
+                <li>
+                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                </li>
+            </ul> -->
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-white bg-white"  >
+                <div class="container-fluid" id="navigationbar">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <!-- toggle button -->
+                        
+                        <span> </span> 
+                    </button>
+                    
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                       
+                    </button>
+
+                    <img width="80" id="headerimg" height="60" src="content_images/logo.png" alt="Avatar">
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto" id="navitems">
+                            <li class="nav-item active">
+                                <a class="nav-link" id="navitems" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="navitems" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="navitems" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="navitems" href="#">Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <section id="contents">
+               
+                <p>1.Internship in capgemini and worked on blockchain loylaty program as a blockchain analayst
+                    2.technx campus amabasedur
+                    3.National level information technology quiz 
+                    4.event cordinator
+                    5.google it support and digital marketing certificate
+                    6.pubic speaking 
+                    7.anchor and show host 
+                    8.love cooking cycling 
+                    few sessions on degree students
+                    
+                    2.WHY SHOULD I HIRE YOU?
+                    This is a critical question in this process. Thank you for asking this question.
+                    I am about to finish my final year college. 
+                    In this course of my studies we have been taught a 
+                    lot of things but the practical application of my
+                     knowledge will help me to know how much I have learnt.
+                    
+                    Interning with your company I will be able to gauge
+                     where I stand.I would love to seek a quidence of 
+                    experienced team that are already on board with the 
+                    help of experienced team I can became better professional 
+                    in future.In return I can assure you utmost dedication 
+                    from my side and all that I can do for betterment of 
+                    this organization.
+                    
+                    3.Why do want to work with this company?
+                    
+                    I would be proud to work for a company like 
+                    yours with such a long history of leadership 
+                    in the industry. I have carried out web research 
+                    and believe that the company’s XYZ products and 
+                    its future projections are very impressive and promising. 
+                    The XXX team is the team I would take pride to work with.
+                     A place where my skills or background fits perfectly and 
+                    can be utilized, respectively.
+                    
+                    4.Do u consider you as sucessful?
+                    I feel successful with continuous progress. 
+                     I find it exciting when I am allowed to implement 
+                    new ideas and see its fruition. I would define my 
+                    success as I have learned through years and use 
+                    them when circumstances arise or demand.
+                    
+                    5.Are you willing to travel?
+                    Yes. I love traveling. Adjusting to new places 
+                    and meeting new people would be a delightful experience for me.
+                    
+                  </p>
+                  <div class="container bcontent">
+                    <div class="vl">
+                    <pre>
+    # Iterative Binary Search Function method Python Implementation  
+    # It returns index of n in given list1 if present,   
+    # else returns -1   
+
+
+    if result != -1:  
+    print("Element is present at index", str(result))  
+    else:  
+    print("Element is not present in list1") 
+                    </pre></div>
+                    </div>
+        </section>
+
+                   
+
+        <div class="line"></div>
+
+        <section id="contents">
+            <p>1.Internship in capgemini and worked on blockchain loylaty program as a blockchain analayst
+                2.technx campus amabasedur
+                3.National level information technology quiz 
+                4.event cordinator
+                5.google it support and digital marketing certificate
+                6.pubic speaking 
+                7.anchor and show host 
+                8.love cooking cycling 
+                few sessions on degree students
+                
+                2.WHY SHOULD I HIRE YOU?
+                This is a critical question in this process. Thank you for asking this question.
+                I am about to finish my final year college. 
+                In this course of my studies we have been taught a 
+                lot of things but the practical application of my
+                 knowledge will help me to know how much I have learnt.
+                
+                Interning with your company I will be able to gauge
+                 where I stand.I would love to seek a quidence of 
+                experienced team that are already on board with the 
+                help of experienced team I can became better professional 
+                in future.In return I can assure you utmost dedication 
+                from my side and all that I can do for betterment of 
+                this organization.
+                
+                3.Why do want to work with this company?
+                
+                I would be proud to work for a company like 
+                yours with such a long history of leadership 
+                in the industry. I have carried out web research 
+                and believe that the company’s XYZ products and 
+                its future projections are very impressive and promising. 
+                The XXX team is the team I would take pride to work with.
+                 A place where my skills or background fits perfectly and 
+                can be utilized, respectively.
+                
+                4.Do u consider you as sucessful?
+                I feel successful with continuous progress. 
+                 I find it exciting when I am allowed to implement 
+                new ideas and see its fruition. I would define my 
+                success as I have learned through years and use 
+                them when circumstances arise or demand.
+                
+                5.Are you willing to travel?
+                Yes. I love traveling. Adjusting to new places 
+                and meeting new people would be a delightful experience for me.
+                
+                
+              </p>
+    </section>
+    <div class="line"></div>
+
+
+             
+        </div>
+    </div>
+
+ 
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>
